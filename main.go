@@ -36,7 +36,7 @@ func main() {
 		log.Println(err)
 	}
 
-	//criaResultado(client, ctx, projectID)
+	criaResultado(client, ctx, projectID)
 	criaBGTableResultado(client, ctx)
 }
 
